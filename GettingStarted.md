@@ -86,7 +86,7 @@ If you play around with the attributes, you'll notice that the position attribut
 
 The radius attribute `radius="1.25"` controls the size of the sphere, and the `color='#EF2D5E'` controls the color which takes a hex-value, color name (such as `color='green'`), or rgb value such as `color='rgb(0,255,0)'`. 
 
-Add the `<a-box>`, `<a-cylinder>`, `<a-plane>` elements inside the same `<a-box>` as shown below. 
+Add the `<a-box>`, `<a-cylinder>`, `<a-plane>` elements inside the same `<a-scene>` as shown below. 
 
 
 ```html
