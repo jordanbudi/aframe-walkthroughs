@@ -80,7 +80,13 @@ Your `index.html` file should look like so:
 	</html>
 ```
 
-When you preview your 
+When you preview your webpage you should see a single sphere. On desktop computer you can look around with a click and drag of the mouse. You can also walk around with the WASD keys. 
+
+If you play around with the attributes, you'll notice that the position attribute, `position="0 1.25 -5" `, controls where the object is placed in the canvas based of an x, y, z coordinate system.
+
+The radius attribute `radius="1.25"` controls the size of the sphere, and the `color='#EF2D5E'` controls the color which takes a hex-value, color name (such as `color='green'`), or rgb value such as `color='rgb(0,255,0)'`. 
+
+Add the `<a-box>`, `<a-cylinder>`, `<a-plane>` elements inside the same `<a-box>` as shown below. 
 
 
 ```html
@@ -99,4 +105,6 @@ When you preview your
 		</body>
 	</html>
 ```
+
+Play around with the attributes to learn more about how they are used. 
 
