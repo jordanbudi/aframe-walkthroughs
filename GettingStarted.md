@@ -56,6 +56,8 @@ Inside your `index.html` file, write the following:
 
 The line `<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>` links your html file to the A-Frame library giving you access to all the VR components. In between the `<a-scene>` `</a-scene>` tags is where all your A-Frame coding will go in.
 
+This method is utilizing a CDN, but as with other languages and frameworks you can download the library locally and link it to your project that way. My experience is to use the CDN because that is the path of least resistance when it comes to number of steps and potential student errors.
+
 ## Creating Your First WebVR World
 
 Let's add a sphere to our `index.html` file by adding the following line inside he `<a-scene>` `</a-scene>` tags:
