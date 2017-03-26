@@ -13,6 +13,13 @@ A-Frame is also an easy leap for students who have already been introduced to ba
 
 ## Course Outline
 
-### [Getting Started](GettingStarted.md)
+### [Getting Started](gettingStarted.md)
 
-### [ ]( )
+### [Creating Shapes](shapes.md)
+### [Animating Shapes](animations.md)
+### [Importing Models/Objects](objectLoading.md)
+### [Camera and Lighting](camera-lighting.md)
+### [Interactivity (Cursor/Onclick)](interaction.md)
+### [Embedding Media (Audio/Video)](media.md)
+### [Adding Physics](physics.md)
+### [A-Frame 3rd Party Extras](extras.md)
