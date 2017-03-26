@@ -4,7 +4,7 @@
 ## Introduction
 
 
-Let's say that you want to load yor favorite pokemon into VR so that all of your freinds can see it. The obj-model component loads a 3D model using a Wavefront (.OBJ) file, a .MTL file, and some pictures .
+Let's say that you want to load yor favorite pokemon into VR so that all of your freinds can see it. The obj-model component loads a 3D model using a Wavefront (.OBJ) file, a .MTL file, and some pictures.
 
 
 ## Where do you find Wavefront Online 
@@ -20,7 +20,7 @@ Let's say that you want to load yor favorite pokemon into VR so that all of your
 
 ### Pre-loading Files
 
-We can load an .OBJ model by making an `<a-assets>` area that loads the obj and mtl files before you call them path to an .OBJ and .MTL file.
+We can load an .OBJ model by making an `<a-assets>` area that loads the obj and mtl files before you call the path to an .OBJ and .MTL file.
 
 ```html
 <a-scene>
@@ -38,9 +38,8 @@ We can load an .OBJ model by making an `<a-assets>` area that loads the obj and 
 
 ### Loading Inline
 
-- **Copy File Path**: In order to properly load the different files that you have loaded you must right click the file and click the button that says `copy file path` but then you must delete the back slash that comes before the file name.
+- **Copy File Path**: In order to properly load the different files you must right click the file and click the button that says `copy file path`.
 
-- **HTML | Preview**: *HTML* to see the markup generated from your Markdown text, *Preview* to see how it looks like
 
 ```html
 <a-entity obj-model="obj: url(/path/to/tree.obj); mtl: url(/path/to/tree.mtl)"></a-entity>
@@ -48,12 +47,12 @@ We can load an .OBJ model by making an `<a-assets>` area that loads the obj and 
 
 ### The .MTL File
 - The .mtl is a file that is a 3 dimensional shape
-- This file cannot be loaded into a [thimble](https://thimble.mozilla.org/en-US/) but can be  
+- This file cannot be loaded into the [Thimble](https://thimble.mozilla.org/en-US/) IDE, but can be in [Cloud 9](https://c9.io) 
 
 
 
-## Problems that may appear
+## Troubleshooting Commmon Problems
 
 - **Model not appearing:** If you don’t see your model, try scaling it down. OBJ models vertices commonly have large scales of units in comparison to A-Frame’s unit of meters.
 
-- **Does not have .mtl file or .obj:** If your code does not display either an .obj file or .mtl file that means  that 
+- **Does not have .mtl file or .obj:** If your code does not display either an .obj file or .mtl file that means that... 
