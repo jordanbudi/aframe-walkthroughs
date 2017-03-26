@@ -1,4 +1,4 @@
-# Loading 3D Models into A-Frame
+# Loading 3D Models into A-Frame (DRAFT)
 *A Guide written by 9th grade student Jerome Foster II, 18 March, 2017*
 
 ## Introduction
