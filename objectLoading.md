@@ -1,5 +1,5 @@
 # Loading 3D Models into A-Frame (DRAFT)
-*A Guide written by 9th grade student Jerome Foster II, 18 March, 2017*
+*A Guide written by 9th grade student Jerome Foster II, Sheyla Gyles, and Louis Carrico-Braun 18 March, 2017*
 
 ## Introduction
 
@@ -12,7 +12,7 @@ Let's say that you want to load yor favorite pokemon into VR so that all of your
 - [Clara.io](https://clara.io/) - Repository of models.
 - [Sketchup](https://3dwarehouse.sketchup.com/) - Repository of models.
 - [Blender](https://www.blender.org/) - A free open-source 3D modeling program with plenty of existing learning resources to create models.
-- [Sketchfab](https://sketchfab.com/?utm_source=emails&utm_medium=drip&utm_campaign=welcome)- puvblish, create, and discovery 3D  content online and in VR.
+- [Sketchfab](https://sketchfab.com/?utm_source=emails&utm_medium=drip&utm_campaign=welcome)- publish, create, and discover 3D content online and in VR.
 
 
 
@@ -55,4 +55,4 @@ We can load an .OBJ model by making an `<a-assets>` area that loads the obj and 
 
 - **Model not appearing:** If you don’t see your model, try scaling it down. OBJ models vertices commonly have large scales of units in comparison to A-Frame’s unit of meters.
 
-- **Does not have .mtl file or .obj:** If your code does not display either an .obj file or .mtl file that means that... 
+- **Does not have .mtl file or .obj:** If your code does not project either an .obj file or .mtl file that means that it was not donr the right way.
