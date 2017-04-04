@@ -1,5 +1,11 @@
 # Interactivity (Cursor/Onclick)
 
+In this example, you will see several new concepts. The first is the cursor on the screen. Notice that the cursor is set as part of the camera entity. This is done so that it is always directly in front of the user in the VR exerience.
+
+The next idea is the concept of interacting with the environment. On the desktop, we can interact with a mouse click. Position the cursor over an element and click on it to trigger the animation.
+
+In a emersive VR world such as google cardboard, we may not have a button to click, so the concept of a fuse is introduced. Set the fuse to true and then move the cursor over the object to see what happens.
+
 **Example 1**
 
 ```html

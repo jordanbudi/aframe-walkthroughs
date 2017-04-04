@@ -1,5 +1,13 @@
 # Shapes
 
+This example creates basic shapes in the A-frame VR environment. Take a few minutes to play around with it.
+
+As you play around,try changing the size and position of the objects. Remember the following:
+
+* The position attribute lists the coordinates in X Y Z order seperated by a space.
+* You can click and hold to turn your head in the environment.
+* You can move around using the w, a, s, d keys on your keyboard.
+* Colors can either be a work, like lightblue, or a Hex code like #7BC8A4
 
 **Example 1**
 ```html

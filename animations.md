@@ -1,7 +1,10 @@
 # Animations
 
-Experiment with the different types of animations. Try changing things like the repeat from indefinate to a number, change the from and too values, change the direction from alternate to normal, etc. Also, play with the duration (dur). This is in milliseconds, so 1000 = 1 secod duration. What happens if you take some of the attributes out?
+This example uses some basic shapes, but puts them in motion. Notice how the animation tag goes between the opening and closing tags for the object.
 
+There are many different animations that we can do. This example demostrates some common types. Feel free to explore the Resource docuument to see others, and the aframe.io website for a complete list.
+
+Please read the comments in the code for some examples of different animations to try.
 
 **Example 1**
 
@@ -55,6 +58,8 @@ Experiment with the different types of animations. Try changing things like the 
   </body>
 </html>
 ```
+
+Experiment with the different types of animations. Try changing things like the repeat from indefinate to a number, change the from and too values, change the direction from alternate to normal, etc. Also, play with the duration (dur). This is in milliseconds, so 1000 = 1 secod duration. What happens if you take some of the attributes out?
 
 **Example 2**
 
