@@ -1,6 +1,6 @@
 # Embedding Media (Audio/Video)
 
-Take time to explore this example using images. The first image is a special 360 degree image (like one that might be taken with the Theta S camera) and it is used as a background.
+Take time to explore this example using images. The first image is a special 360 degree image (like one that might be taken with a Theta S camera) and it is used as a background.
 
 The second image is a 360 image of the Earth and bent around a sphere object as a texture. This gives the sphere the sense that it is a globe. Notice the size and position as well. By putting it far away and bigger, it makes it more fixed in the sky as you move around.
 
